@@ -1,0 +1,5 @@
+SELECT TOP (10) [OrderID]
+      ,[OrderDate]
+      ,[CustomerID]
+      ,[OrderTotal]
+  FROM [KCC].[dbo].[Orders]
