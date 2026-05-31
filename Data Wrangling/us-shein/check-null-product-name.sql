@@ -1,3 +1,4 @@
+--Every row has a product name, so I can depend upon each one as an identifier.
 
 SELECT [price]
 	  ,[product-name]
