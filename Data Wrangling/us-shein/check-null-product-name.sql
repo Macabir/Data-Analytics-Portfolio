@@ -1,7 +1,3 @@
-/*
-	Null checking
-
-*/
 
 SELECT [price]
 	  ,[product-name]
