@@ -4,7 +4,7 @@
   
   My aim is to see the total amount of money made by each cookie's sale and lost by each cookie's production.
 
-  First, I will try to relate each CookID to the quantity of cookies from every order.
+  First, I will try to relate each CookieID to the quantity of cookies from every order.
   
   */
 
@@ -18,7 +18,7 @@ SELECT TOP (1000) [OrderID]
   /*
   
   Now I wish to generate a sum of the quantities.
-  I have faith in the answer, but for my own satisfaction,
+  I have faith in the answer, but to be satisfied,
   what happens if I exclude the where statement in the following?
   Will it be different than if I included it?
   
