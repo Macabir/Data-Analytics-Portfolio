@@ -38,7 +38,6 @@ WITH Cleaned_Data_CTE AS (
       ,[Location]
       ,[Transaction_Date]
         
-        -- Our safe derivation math from earlier
         ,CASE 
             WHEN Price_Per_Unit IS NOT NULL THEN Price_Per_Unit
             WHEN COALESCE(Quantity, 0) = 0 THEN 0.00
