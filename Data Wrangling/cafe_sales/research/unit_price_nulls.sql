@@ -67,7 +67,6 @@ WITH Cleaned_Data_CTE AS (
         Price_Per_Unit,
         Total_Spent,
         
-        -- Our safe derivation math
         CASE 
             WHEN Price_Per_Unit IS NOT NULL THEN Price_Per_Unit
             WHEN COALESCE(Quantity, 0) = 0 THEN 0.00
