@@ -1,5 +1,0 @@
-SELECT TOP (100000) [product-name]
-      ,[price]
-      ,[discount]
-      ,[color_count]
-  FROM [us-shein].[dbo].[View_2]
