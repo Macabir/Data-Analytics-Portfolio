@@ -52,7 +52,7 @@ SELECT
     SUM(CASE WHEN Price_Per_Unit IS NULL THEN 1 ELSE 0 END) AS Original_Price_Nulls,
     
     -- 2. Count nulls in your new calculated column
-    SUM(CASE WHEN Cleaned_Price_Per_Unit IS NULL THEN 1 ELSE 0 END) AS Cleaned_Price_Nulls
+    SUM(CASE WHEN Cleaned_Price_Per_Unit IS NULL THEN 1 ELSE 0 END) AS Remaining_Price_Nulls
 FROM 
     Cleaned_Data_CTE;
 
@@ -156,6 +156,6 @@ Cleaned_Price_Output AS (
 )
 SELECT 
     -- Count the remaining nulls in your finalized column
-    SUM(CASE WHEN Cleaned_Price_Per_Unit IS NULL THEN 1 ELSE 0 END) AS Lingering_Price_Nulls
+    SUM(CASE WHEN Cleaned_Price_Per_Unit IS NULL THEN 1 ELSE 0 END) AS Remaining_Price_Nulls
 FROM 
     Cleaned_Price_Output;
