@@ -1,5 +1,7 @@
 Calculus Power Rule Assistant
 
+Note: This program is based on code generated with AI. It has been tested and verified by me.
+
 This program calculates derivatives based on the power rule.
 
 Given an input exponent n in x^n, a derivative term is formed.
