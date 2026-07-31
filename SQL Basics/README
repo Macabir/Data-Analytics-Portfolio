@@ -1,7 +1,6 @@
+This is an analytical study of sales data from Kevin's Cookie Company.
 
-Outside of just exploring SQL, the Profits and Losses folder shows an attempt at understanding business patterns.
-
-The code here was developed with the benefit of SQL Server Management Studio 20.
+The code here was developed with the benefit of SQL Server Management Studio 20. Reports made in Power BI.
 
 Also, thanks to Kevin Stratvert, whose data made these queries possible:
 https://www.youtube.com/watch?v=h0nxCDiD-zg&t=1s
