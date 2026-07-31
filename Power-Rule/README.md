@@ -25,3 +25,5 @@ Arguments "2 7": 16
 Arguments "2 8": 18
 
 Changes in "x", but not "n", will cause a linear change in the result.
+
+To learn more about the power rule, refer to <a href="https://tutorial.math.lamar.edu/Classes/CalcI/DiffFormulas.aspx">Paul's Online Math Notes</a>
