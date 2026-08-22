@@ -71,3 +71,10 @@ SELECT SUM(Quantity)
 	SET @i += 1;
 
   END
+
+ /*
+ 
+ So now we know how many of each cookie product we have sold. But how much money has each product made?
+ Before I do that though, I should learn to put these aggregates into a single column with their respective CookieID values.
+ 
+ */
