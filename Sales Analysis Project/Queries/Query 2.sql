@@ -1,6 +1,6 @@
 
 
-  /*Essentially the last file turned into an updater for a new column:*/
+  /*Essentially the last loop code turned into an updater for a new column:*/
 
   DECLARE @i INT = 1;
   DECLARE @CookieIDcount INT;
